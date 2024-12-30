@@ -17,10 +17,10 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a software engineer with a passion for web development. I have
+        I&apos;m a software engineer with a passion for web development. I have
         experience in building web applications using JavaScript, React, and
-        Node.js. I'm always looking to learn new technologies and improve my
-        skills.
+        Node.js. I&apos;m always looking to learn new technologies and improve
+        my skills.
       </p>
       <p>
         In my free time, I enjoy working on side projects and contributing to
