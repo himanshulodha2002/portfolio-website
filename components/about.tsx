@@ -40,12 +40,10 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy
+        <span className="italic">When I&apos;m not coding</span>, I enjoy
         contributing to social initiatives, such as working with{" "}
-        <span className="font-medium">
-          Yuvaka Sangha, AICTE, and NSS Karnataka
-        </span>{" "}
-        on environmental conservation projects. I also love exploring new
+        <span className="font-medium">Yuvaka Sangha, and NSS</span> on
+        environmental conservation projects. I also love exploring new
         technologies, learning about{" "}
         <span className="font-medium">machine learning and deep learning</span>,
         and enhancing my skills in development. Additionally, I like reading
