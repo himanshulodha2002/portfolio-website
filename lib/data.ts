@@ -35,52 +35,46 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelor of Engineering - BE, Computer Science",
+    location: "BMS Institute of Technology and Management, Bengaluru, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Pursuing with a current CGPA of 9.31 (after the 4th semester).",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Nov 2022 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    title: "School Education",
+    location: "Sarala Birla Public School, Ranchi, India",
+    description: "Completed CBSE XII with 87.50% and CBSE X with 91.83%.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Apr 2008 - Apr 2021",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Explore Ease",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Developed a full-stack web application using Node.js with a local LLM-powered chatbot. Features include an interactive map and optimal route generation.",
+    tags: ["Node.js", "LLM", "Graph Algorithm", "Interactive Map"],
+    imageUrl: corpcommentImg, // Add URL if available
+    date: "Jul 2024",
   },
   {
-    title: "rmtDev",
+    title: "D4 - Data Driven Diabetes Decipher",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Implemented a KNN algorithm in C++ for diabetes prediction, achieving up to 10-50x faster execution compared to Python for large datasets.",
+    tags: ["C++", "KNN Algorithm", "Health Data", "Machine Learning"],
+    imageUrl: rmtdevImg, // Add URL if available
+    date: "Feb 2024",
   },
   {
-    title: "Word Analytics",
+    title: "Government School Website",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Developed a fully functional front-end website with a language toggle feature to improve accessibility and engagement.",
+    tags: ["HTML", "CSS", "JavaScript", "Localization"],
+    imageUrl: wordanalyticsImg, // Add URL if available
+    date: "Jan 2024",
   },
 ] as const;
 
@@ -104,4 +98,35 @@ export const skillsData = [
   "RAG",
   "GenAi",
   "LLM",
+] as const;
+
+export const coursesData = [
+  {
+    title: "Deep Learning Specialization",
+    provider: "Stanford University & DeepLearning.AI on Coursera",
+    date: "Sept 2024",
+  },
+  {
+    title: "Machine Learning Specialization",
+    provider: "Stanford University & DeepLearning.AI on Coursera",
+    date: "Aug 2024",
+  },
+  {
+    title: "Python 3 Programming Specialization",
+    provider: "University of Michigan on Coursera",
+    date: "Aug 2024",
+  },
+] as const;
+
+export const extracurricularsData = [
+  {
+    title: "Technical Head at IIC-BMSIT",
+    description:
+      "Led the team to develop the club&apos;s website and event platforms, which are live and operational.",
+  },
+  {
+    title: "Volunteering",
+    description:
+      "Collaborated with Yuvaka Sangha, AICTE, and NSS Karnataka to create a database of lakes and water bodies for conservation.",
+  },
 ] as const;
