@@ -52,37 +52,20 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-      {/* <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
-        initial={{ opacity: 0, y: 100 }}
-        animate={{ opacity: 1, y: 0 }}
-      >
-        <span className="font-bold">Hi, I&apos;m Himanshu.</span> A{" "}
-        <span className="font-bold">web developer</span> skilled in{" "}
-        <span className="underline">React (Next.js)</span>, with a passion for{" "}
-        <span className="italic">ML</span> and{" "}
-        <span className="italic">RAG</span>. I love blending AI with web
-        development to create smarter digital experiences.
-        <span className="font-bold">Hi, I'm Himanshu.</span> A{" "}
-        <span className="font-bold">full-stack developer</span> skilled in
-        React, Next.js, and FastAPI, with a strong foundation in{" "}
-        <span className="italic">Machine Learning</span> and{" "}
-        <span className="italic">RAG</span>. I specialize in combining AI and
-        web development to deliver impactful digital solutions.
-      </motion.h1> */}
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hi, I&apos;m Himanshu.</span> A{" "}
-        <span className="font-bold">full-stack developer</span> skilled in
-        React, Next.js, and FastAPI, with a strong foundation in{" "}
-        <span className="italic">Machine Learning</span> and{" "}
-        <span className="italic">RAG</span>. I specialize in combining AI and
-        web development to deliver impactful digital solutions.
+        <span className="font-bold">web developer</span> skilled in{" "}
+        <span className="italic text-gray-800 dark:text-pink-50">
+          React (Next.js)
+        </span>
+        , with a passion for <span className="italic">ML</span> and{" "}
+        <span className="italic">RAG Pipelines</span>. I love blending AI with
+        web development to create smarter digital experiences.
       </motion.h1>
-
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
