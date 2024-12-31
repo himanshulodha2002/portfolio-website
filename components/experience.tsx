@@ -22,7 +22,7 @@ export default function Experience() {
             <VerticalTimelineElement
               contentStyle={{
                 background:
-                  theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.5)",
+                  theme === "light" ? "#f3f4f6" : "rgba(255, 255, 255, 0.1)",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
@@ -50,7 +50,7 @@ export default function Experience() {
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700 darkP:text-white/75">
+              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/80">
                 {item.description}
               </p>
             </VerticalTimelineElement>
