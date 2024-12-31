@@ -133,21 +133,6 @@ export const extracurricularsData = [
 
 export const experiencesData = [
   {
-    title: "Bachelor of Engineering - BE, Computer Science",
-    location: "BMS Institute of Technology and Management, Bengaluru, India",
-    description:
-      "Pursuing with a current CGPA of 9.31 (after the 4th semester).",
-    icon: React.createElement(LuGraduationCap),
-    date: "Nov 2022 - Present",
-  },
-  {
-    title: "School Education",
-    location: "Sarala Birla Public School, Ranchi, India",
-    description: "Completed CBSE XII with 87.50% and CBSE X with 91.83%.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Apr 2008 - Apr 2021",
-  },
-  {
     title: "Technical Head at IIC-BMSIT",
     location: "BMS Institute of Technology and Management, Bengaluru, India",
     description:
@@ -156,11 +141,26 @@ export const experiencesData = [
     date: "2024",
   },
   {
+    title: "Bachelor of Engineering - BE, Computer Science",
+    location: "BMS Institute of Technology and Management, Bengaluru, India",
+    description:
+      "Pursuing with a current CGPA of 9.31 (after the 4th semester).",
+    icon: React.createElement(LuGraduationCap),
+    date: "Nov 2022 - Present",
+  },
+  {
     title: "Volunteering",
     location: "Bengaluru, India",
     description:
       "Collaborated with Yuvaka Sangha, AICTE, and NSS Karnataka to create a database of lakes and water bodies for conservation.",
     icon: React.createElement(CgWorkAlt),
     date: "2024",
+  },
+  {
+    title: "School Education",
+    location: "Sarala Birla Public School, Ranchi, India",
+    description: "Completed CBSE XII with 87.50% and CBSE X with 91.83%.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Apr 2008 - Apr 2021",
   },
 ] as const;
