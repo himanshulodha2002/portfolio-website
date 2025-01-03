@@ -1,6 +1,7 @@
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import d4 from "@/public/d4newer.png";
+import exploreease from "@/public/explorease.png";
+import underdev from "@/public/Icon_under_development.png";
+
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -51,33 +52,6 @@ export const experiencesData1 = [
   },
 ] as const;
 
-// export const projectsData = [
-//   {
-//     title: "Explore Ease",
-//     description:
-//       "Developed a full-stack web application using Node.js with a local LLM-powered chatbot. Features include an interactive map and optimal route generation.",
-//     tags: ["Node.js", "LLM", "Graph Algorithm", "Interactive Map"],
-//     imageUrl: corpcommentImg, // Add URL if available
-//     date: "Jul 2024",
-//   },
-//   {
-//     title: "D4 - Data Driven Diabetes Decipher",
-//     description:
-//       "Implemented a KNN algorithm in C++ for diabetes prediction, achieving up to 10-50x faster execution compared to Python for large datasets.",
-//     tags: ["C++", "KNN Algorithm", "Health Data", "Machine Learning"],
-//     imageUrl: rmtdevImg, // Add URL if available
-//     date: "Feb 2024",
-//   },
-//   {
-//     title: "Government School Website",
-//     description:
-//       "Developed a fully functional front-end website with a language toggle feature to improve accessibility and engagement.",
-//     tags: ["HTML", "CSS", "JavaScript", "Localization"],
-//     imageUrl: wordanalyticsImg, // Add URL if available
-//     date: "Jan 2024",
-//   },
-// ] as const;
-
 export const projectsData = [
   {
     title: "Holistic Meeting Insights: From Slides to Speech",
@@ -92,7 +66,7 @@ export const projectsData = [
       "Knowledge Graph",
       "Visual Data Analysis",
     ],
-    imageUrl: wordanalyticsImg, // Add URL if available
+    imageUrl: underdev, // Add URL if available
     date: "Jan 2025",
   },
   {
@@ -100,7 +74,7 @@ export const projectsData = [
     description:
       "Built an interactive book reader that asks questions about the book using an RAG pipeline. The system also summarizes books with graph-based RAG techniques for better comprehension.",
     tags: ["RAG", "Knowledge Graph", "NLP", "Interactive Tools"],
-    imageUrl: wordanalyticsImg, // Add URL if available
+    imageUrl: underdev, // Add URL if available
     date: "Dec 2024",
   },
 
@@ -109,7 +83,7 @@ export const projectsData = [
     description:
       "Developed a full-stack web application using Node.js with a local LLM-powered chatbot. Features include an interactive map and optimal route generation.",
     tags: ["Node.js", "LLM", "Graph Algorithm", "Interactive Map"],
-    imageUrl: corpcommentImg, // Add URL if available
+    imageUrl: exploreease, // Add URL if available
     date: "Jul 2024",
   },
   {
@@ -117,7 +91,7 @@ export const projectsData = [
     description:
       "Implemented a KNN algorithm in C++ for diabetes prediction, achieving up to 10-50x faster execution compared to Python for large datasets.",
     tags: ["C++", "KNN Algorithm", "Health Data", "Machine Learning"],
-    imageUrl: rmtdevImg, // Add URL if available
+    imageUrl: d4, // Add URL if available
     date: "Feb 2024",
   },
   // {
@@ -184,39 +158,6 @@ export const extracurricularsData = [
   },
 ] as const;
 
-// export const experiencesData = [
-//   {
-//     title: "Technical Head at IIC-BMSIT",
-//     location: "BMS Institute of Technology and Management, Bengaluru, India",
-//     description:
-//       "Led the team to develop the club's website and event platforms, which are live and operational.",
-//     icon: React.createElement(CgWorkAlt),
-//     date: "2024",
-//   },
-//   {
-//     title: "Bachelor of Engineering - BE, Computer Science",
-//     location: "BMS Institute of Technology and Management, Bengaluru, India",
-//     description:
-//       "Pursuing with a current CGPA of 9.31 (after the 4th semester).",
-//     icon: React.createElement(LuGraduationCap),
-//     date: "Nov 2022 - Present",
-//   },
-//   {
-//     title: "Volunteering",
-//     location: "Bengaluru, India",
-//     description:
-//       "Collaborated with Yuvaka Sangha, AICTE, and NSS Karnataka to create a database of lakes and water bodies for conservation.",
-//     icon: React.createElement(CgWorkAlt),
-//     date: "2024",
-//   },
-//   {
-//     title: "School Education",
-//     location: "Sarala Birla Public School, Ranchi, India",
-//     description: "Completed CBSE XII with 87.50% and CBSE X with 91.83%.",
-//     icon: React.createElement(LuGraduationCap),
-//     date: "Apr 2008 - Apr 2021",
-//   },
-// ] as const;
 export const experiencesData = [
   {
     title: "Research Intern at Unisys",
