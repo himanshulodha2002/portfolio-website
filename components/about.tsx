@@ -32,23 +32,23 @@ export default function About() {
         </span>
         . <span className="italic">My favorite part of programming</span> is
         building solutions that positively impact users, like interactive tools
-        and accessible platforms. I am currently seeking{" "}
+        and accessible platforms.
+        {/* I am currently seeking{" "}
         <span className="font-medium">
           internship or full-time opportunities
         </span>{" "}
-        to apply my skills and grow as a software developer.
+        to apply my skills and grow as a software developer. */}
       </p>
 
       <p>
-        <span className="italic">When I&apos;m not coding</span>, I enjoy
+        I love exploring new technologies, learning about{" "}
+        <span className="font-medium">machine learning and deep learning</span>,
+        and enhancing my skills in development. Additionally, I enjoy reading
+        books and watching movies.
+        {/* <span className="italic">When I&apos;m not coding</span>, I enjoy
         contributing to social initiatives, such as working with{" "}
         <span className="font-medium">Yuvaka Sangha, and NSS</span> on
-        environmental conservation projects. I also love exploring new
-        technologies, learning about{" "}
-        <span className="font-medium">machine learning and deep learning</span>,
-        and enhancing my skills in development. Additionally, I like reading
-        books, watching movies, and staying curious by learning new concepts
-        beyond tech, such as philosophy and history.
+        environmental conservation projects. */}
       </p>
     </motion.section>
   );

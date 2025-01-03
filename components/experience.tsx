@@ -40,7 +40,9 @@ export default function Experience() {
                     : "0.4rem solid rgba(255, 255, 255, 0.5)",
               }}
               date={item.date}
-              dateClassName={index % 2 === 0 ? "ml-5" : "mr-5"}
+              dateClassName={
+                index % 2 === 0 ? "ml-5 text-4xl" : "mr-5 text-4xl"
+              }
               icon={item.icon}
               iconStyle={{
                 background:
