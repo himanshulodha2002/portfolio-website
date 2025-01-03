@@ -95,7 +95,6 @@ export const projectsData = [
     imageUrl: wordanalyticsImg, // Add URL if available
     date: "Jan 2025",
   },
-
   {
     title: "Interactive Book Reader with RAG",
     description:
@@ -104,6 +103,7 @@ export const projectsData = [
     imageUrl: wordanalyticsImg, // Add URL if available
     date: "Dec 2024",
   },
+
   {
     title: "Explore Ease",
     description:
@@ -222,7 +222,7 @@ export const experiencesData = [
     title: "Research Intern at Unisys",
     location: "Remote",
     description:
-      "Creating training datasets for proprietary languages to train Code Llama 3.2. Researching and documenting approaches for programming languages like ALGOL and COBOL to design a Co-pilot for Unisys-specific languages. Key tasks include publishing a paper on dataset preparation and leveraging AI models (Llama) and Hugging Face.",
+      "Developing training datasets for proprietary languages to train Code Llama 3.2. Researching methods for languages like ALGOL and COBOL to create a Co-pilot for Unisys-specific languages, with a focus on publishing a dataset preparation paper and using AI models like Llama.",
     icon: React.createElement(CgWorkAlt),
     date: "Nov 2024 - Present",
   },
