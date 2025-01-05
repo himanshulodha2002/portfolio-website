@@ -1,7 +1,12 @@
 import d4 from "@/public/d4newer.png";
+import dlcert from "@/public/dlcert.png";
 import exploreease from "@/public/explorease.png";
+import govtschcert from "@/public/govtschcert.jpg";
 import underdev from "@/public/Icon_under_development.png";
+import mlcert from "@/public/mlcert.png";
+import py3cert from "@/public/pycert.png";
 import readisnet from "@/public/readisnet.png";
+import waterdatacert from "@/public/waterdatacert.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -129,19 +134,41 @@ export const skillsData = [
 
 export const coursesData = [
   {
-    title: "Deep Learning Specialization",
-    provider: "Stanford University & DeepLearning.AI on Coursera",
-    date: "Sept 2024",
+    id: "1",
+    name: "Deep Learning Specialization",
+    quote: "Stanford University & DeepLearning.AI on Coursera",
+    designation: "Sept 2024",
+    src: dlcert,
   },
   {
-    title: "Machine Learning Specialization",
-    provider: "Stanford University & DeepLearning.AI on Coursera",
-    date: "Aug 2024",
+    id: "2",
+    name: "Machine Learning Specialization",
+    quote: "Stanford University & DeepLearning.AI on Coursera",
+    designation: "Aug 2024",
+    src: mlcert,
   },
   {
-    title: "Python 3 Programming Specialization",
-    provider: "University of Michigan on Coursera",
-    date: "Aug 2024",
+    id: "3",
+    name: "Python 3 Programming Specialization",
+    quote: "University of Michigan on Coursera",
+    designation: "Aug 2024",
+    src: py3cert,
+  },
+  {
+    id: "4",
+    name: "Volunteered to Created database of lakes and water bodies",
+    quote:
+      "Collaborated with Yuvaka Sangha and NSS Karnataka to create a database of lakes and water bodies for conservation.",
+    designation: "Jul 2024",
+    src: waterdatacert,
+  },
+  {
+    id: "5",
+    name: "Donated a Website to a Government School",
+    quote:
+      "Donated a fully functional website to a government school in Rajanukunte in collaboration with Govt. High School, Rajanukunte.",
+    designation: "May 2024",
+    src: govtschcert,
   },
 ] as const;
 
@@ -173,16 +200,16 @@ export const experiencesData = [
     description:
       "Led the team to develop the club's website and event platforms, which are live and operational.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024",
+    date: "Nov 2024 - Present",
   },
-  {
-    title: "Volunteering",
-    location: "Bengaluru, India",
-    description:
-      "Collaborated with Yuvaka Sangha and NSS Karnataka to create a database of lakes and water bodies for conservation. Also donated a fully functional website to a government school in Rajanukunte.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2024",
-  },
+  // {
+  //   title: "Volunteering",
+  //   location: "Bengaluru, India",
+  //   description:
+  //     "Collaborated with Yuvaka Sangha and NSS Karnataka to create a database of lakes and water bodies for conservation. Also donated a fully functional website to a government school in Rajanukunte.",
+  //   icon: React.createElement(CgWorkAlt),
+  //   date: "2024",
+  // },
   {
     title: "Bachelor of Engineering - BE, Computer Science",
     location: "BMS Institute of Technology and Management, Bengaluru, India",
