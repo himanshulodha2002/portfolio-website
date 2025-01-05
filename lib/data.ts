@@ -1,7 +1,7 @@
 import d4 from "@/public/d4newer.png";
 import exploreease from "@/public/explorease.png";
 import underdev from "@/public/Icon_under_development.png";
-
+import readisnet from "@/public/readisnet.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
@@ -74,7 +74,7 @@ export const projectsData = [
     description:
       "Built an interactive book reader that asks questions about the book using an RAG pipeline. The system also summarizes books with graph-based RAG techniques for better comprehension.",
     tags: ["RAG", "Knowledge Graph", "NLP", "Interactive Tools"],
-    imageUrl: underdev, // Add URL if available
+    imageUrl: readisnet, // Add URL if available
     date: "Dec 2024",
   },
 
