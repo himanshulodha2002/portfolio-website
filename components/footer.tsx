@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="mb-10 ppx-4 text-center text-gray-500">
       <small className="mb-2 block text-xs ">
-        &copy; 2021 Himanshu Lodha. All rights reserved. Made with{" "}
+        &copy; 2025 Himanshu Lodha. All rights reserved. Made with{" "}
         <span className="text-red-500">❤</span> in
         <a
           href="https://en.wikipedia.org/wiki/India"
