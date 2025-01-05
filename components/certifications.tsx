@@ -6,12 +6,12 @@ import React from "react";
 import SectionHeading from "./section-heading";
 
 export default function Certifications() {
-  const { ref } = useSectionInView("Skills");
+  const { ref } = useSectionInView("Certifications");
   // console.log(ref);
   return (
     <section
       ref={ref}
-      id="skills"
+      id="certifications"
       className="mb-28 max-w-[65rem] scroll-mt-28 text-center sm:mb-40"
     >
       <SectionHeading>My Certifications</SectionHeading>

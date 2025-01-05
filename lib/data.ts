@@ -30,6 +30,10 @@ export const links = [
     hash: "#skills",
   },
   {
+    name: "Certifications",
+    hash: "#certifications",
+  },
+  {
     name: "Experience",
     hash: "#experience",
   },
@@ -135,30 +139,33 @@ export const skillsData = [
 export const coursesData = [
   {
     id: "1",
-    name: "Deep Learning Specialization",
-    quote: "Stanford University & DeepLearning.AI on Coursera",
+    name: `Deep Learning Specialization by Stanford University`,
+    quote:
+      "Stanford University and DeepLearning.AI on Coursera, covering neural networks, deep architectures, and AI applications in various domains.",
     designation: "Sept 2024",
     src: dlcert,
   },
   {
     id: "2",
     name: "Machine Learning Specialization",
-    quote: "Stanford University & DeepLearning.AI on Coursera",
+    quote:
+      "Stanford University and DeepLearning.AI on Coursera, focusing on supervised, unsupervised, and deep learning techniques for AI systems.",
     designation: "Aug 2024",
     src: mlcert,
   },
   {
     id: "3",
     name: "Python 3 Programming Specialization",
-    quote: "University of Michigan on Coursera",
+    quote:
+      "University of Michigan on Coursera, teaching Python programming, data structures, and advanced applications for software development.",
     designation: "Aug 2024",
     src: py3cert,
   },
   {
     id: "4",
-    name: "Volunteered to Created database of lakes and water bodies",
+    name: "Volunteered to Create Database of Water Bodies",
     quote:
-      "Collaborated with Yuvaka Sangha and NSS Karnataka to create a database of lakes and water bodies for conservation.",
+      "Collaborated with Yuvaka Sangha and NSS Karnataka to create a comprehensive database of lakes and water bodies to support conservation efforts.",
     designation: "Jul 2024",
     src: waterdatacert,
   },
@@ -166,7 +173,7 @@ export const coursesData = [
     id: "5",
     name: "Donated a Website to a Government School",
     quote:
-      "Donated a fully functional website to a government school in Rajanukunte in collaboration with Govt. High School, Rajanukunte.",
+      "Donated a fully functional website to a government school in Rajanukunte, enhancing digital accessibility and ease of communication.",
     designation: "May 2024",
     src: govtschcert,
   },

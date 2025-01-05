@@ -45,7 +45,7 @@ export const AnimatedTestimonials = ({
   // };
   // const rotations = [-10, 0, 10, -5, 5]; // Predefined rotations
   // const randomRotateY = (index: number) => rotations[index % rotations.length];
-  const rotations = [-10, 0, 10, -5, 5, -8, 12, -3, 7, -6]; // Extended rotations
+  const rotations = [-7, 0, 7, -5, 5, -8, 6, -3, 7, -6]; // Extended rotations
 
   const randomRotateY = (index: number) => {
     const baseRotation = rotations[index % rotations.length];
@@ -54,8 +54,8 @@ export const AnimatedTestimonials = ({
   };
 
   return (
-    <div className="max-w-6xl md:max-w-[100rem] mx-auto antialiased font-sans px-4 md:px-8 lg:px-12 py-20">
-      <div className="relative grid grid-cols-1 md:grid-cols-2 gap-20">
+    <div className="max-w-6xl md:max-w-[100rem] mx-auto antialiased font-sans px-4 md:px-8 lg:px-12 sm:py-20 py-4">
+      <div className="relative grid grid-cols-1 md:grid-cols-2 gap-10">
         <div>
           <div className="relative h-80 w-full">
             <AnimatePresence>
@@ -74,7 +74,7 @@ export const AnimatedTestimonials = ({
                     z: isActive(index) ? 0 : -100,
                     rotate: isActive(index) ? 0 : randomRotateY(index),
                     zIndex: isActive(index)
-                      ? 999
+                      ? 990
                       : testimonials.length + 2 - index,
                     y: isActive(index) ? [0, -80, 0] : 0,
                   }}
