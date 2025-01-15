@@ -133,7 +133,7 @@ export const skillsData = [
   "RAG",
   // "GenAi",
   "LLM",
-  "Knownledge Graph",
+  "Knowledge Graph",
 ] as const;
 
 export const coursesData = [
