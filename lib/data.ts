@@ -1,15 +1,14 @@
-import d4 from "@/public/d4newer.png";
-import dlcert from "@/public/dlcert.png";
-import exploreease from "@/public/explorease.png";
-import govtschcert from "@/public/govtschcert.jpg";
-import underdev from "@/public/Icon_under_development.png";
-import mlcert from "@/public/mlcert.png";
-import py3cert from "@/public/pycert.png";
-import readisnet from "@/public/readisnet.png";
-import waterdatacert from "@/public/waterdatacert.png";
+import dlcert from "@/public/images/Certificates/dlcert.png";
+import govtschcert from "@/public/images/Certificates/govtschcert.jpg";
+import mlcert from "@/public/images/Certificates/mlcert.png";
+import py3cert from "@/public/images/Certificates/pycert.png";
+import waterdatacert from "@/public/images/Certificates/waterdatacert.png";
+import d4 from "@/public/images/Projects/d4newer.png";
+import exploreease from "@/public/images/Projects/explorease.png";
+import meetingrag from "@/public/images/Projects/meetingrag.jpg";
+import readisnet from "@/public/images/Projects/readisnet.png";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 
 export const links = [
@@ -75,7 +74,7 @@ export const projectsData = [
       "Knowledge Graph",
       "Visual Data Analysis",
     ],
-    imageUrl: underdev, // Add URL if available
+    imageUrl: meetingrag, // Add URL if available
     date: "Jan 2025",
   },
   {

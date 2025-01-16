@@ -28,7 +28,7 @@ export default function Intro() {
             className="relative h-24 w-24 rounded-full overflow-hidden"
           >
             <Image
-              src="/Profile_pic.png"
+              src="/images/Profile_pic.png"
               alt="Himanshu photo"
               width={192}
               height={192}
