@@ -27,6 +27,7 @@ export default function Experience() {
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
                 padding: "1.3rem 0.5rem",
+                borderRadius: "1rem",
                 // float: "left",
                 // width: "18rem",
                 alignContent: "left",

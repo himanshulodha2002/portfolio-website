@@ -47,7 +47,7 @@ export default function Project({
           src={imageUrl}
           alt="Project I worked on, screenshots"
           quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl rounded-lg h-[100%]
         transition
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
