@@ -22,33 +22,34 @@ export default function About() {
         <span className="font-medium">
           BMS Institute of Technology and Management
         </span>
-        . With a current CGPA of 9.31, I have developed a strong foundation in{" "}
+        . With a current CGPA of 9.21, I have developed a strong foundation in{" "}
         <span className="font-medium">
           C/C++, Data Structures, Algorithms, and full-stack development
         </span>
-        . My projects have allowed me to explore technologies like{" "}
+        . Currently working as a{" "}
         <span className="font-medium">
-          React, Next.js, FastAPI, and Machine Learning
+          Backend Engineer and Intern at Samey AI
+        </span>
+        , I work with technologies like{" "}
+        <span className="font-medium">
+          NATS, Redis, Python, FastAPI, and Azure Artifacts
+        </span>
+        , while also building projects with{" "}
+        <span className="font-medium">
+          React, Next.js, and Machine Learning
         </span>
         . <span className="italic">My favorite part of programming</span> is
         building solutions that positively impact users, like interactive tools
         and accessible platforms.
-        {/* I am currently seeking{" "}
-        <span className="font-medium">
-          internship or full-time opportunities
-        </span>{" "}
-        to apply my skills and grow as a software developer. */}
       </p>
 
       <p>
-        I love exploring new technologies, learning about{" "}
+        At Samey AI, I collaborate on designing workflow orchestrators and
+        optimizing internal Python package repositories across microservices. I
+        love exploring new technologies, learning about{" "}
         <span className="font-medium">machine learning and deep learning</span>,
-        and enhancing my skills in development. Additionally, I enjoy reading
-        books and watching movies.
-        {/* <span className="italic">When I&apos;m not coding</span>, I enjoy
-        contributing to social initiatives, such as working with{" "}
-        <span className="font-medium">Yuvaka Sangha, and NSS</span> on
-        environmental conservation projects. */}
+        and enhancing my skills in backend development and AI integration.
+        Additionally, I enjoy reading books and watching movies.
       </p>
     </motion.section>
   );

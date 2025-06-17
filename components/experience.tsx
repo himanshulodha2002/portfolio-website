@@ -28,8 +28,6 @@ export default function Experience() {
                 textAlign: "left",
                 padding: "1.3rem 0.5rem",
                 borderRadius: "1rem",
-                // float: "left",
-                // width: "18rem",
                 alignContent: "left",
                 marginRight: index % 2 === 0 ? "20" : "",
                 marginLeft: index % 2 !== 0 ? "20" : "",
