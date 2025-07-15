@@ -4,7 +4,7 @@ import { useActiveSectionContext } from "@/context/active-section-context";
 import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
 import { AnimatePresence, motion } from "framer-motion";
 import Image, { StaticImageData } from "next/image";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 type Testimonial = {
   id: string;
@@ -24,9 +24,9 @@ export const AnimatedTestimonials = ({
   const [showOverlay, setShowOverlay] = useState(false);
   const { activeSection } = useActiveSectionContext();
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     setActive((prev) => (prev + 1) % testimonials.length);
-  };
+  }, [testimonials.length]);
 
   const handlePrev = () => {
     setActive((prev) => (prev - 1 + testimonials.length) % testimonials.length);
@@ -37,11 +37,9 @@ export const AnimatedTestimonials = ({
   };
 
   useEffect(() => {
-    if (autoplay) {
-      const interval = setInterval(handleNext, 5000);
-      return () => clearInterval(interval);
-    }
-  }, [autoplay]);
+    const timer = setInterval(handleNext, 5000);
+    return () => clearInterval(timer);
+  }, [handleNext]);
 
   useEffect(() => {
     if (activeSection !== "Certifications") {
@@ -204,7 +202,7 @@ export const AnimatedTestimonials = ({
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-0 bg-black bg-opacity-0 backdrop-blur-sm flex items-start sm:items-center justify-center !z-[990] overflow-y-auto pb-6 pt-16 sm:pt-24"
+            className="fixed inset-0 bg-black/40 backdrop-blur-sm flex items-start sm:items-center justify-center !z-[990] overflow-y-auto pb-6 pt-16 sm:pt-24"
             onClick={closeOverlay}
           >
             <motion.div
@@ -212,7 +210,7 @@ export const AnimatedTestimonials = ({
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.8, opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="relative w-full max-w-2xl mx-4 my-auto"
+              className="relative w-full max-w-xl mx-4 my-auto"
             >
               <div className="w-full h-[35vh] sm:h-[45vh] min-h-[200px] sm:min-h-[250px] max-h-[350px] sm:max-h-[450px] relative">
                 <Image

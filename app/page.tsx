@@ -3,7 +3,7 @@ import Certifications from "@/components/certifications";
 import Contact from "@/components/contact";
 import Experience from "@/components/experience";
 import Intro from "@/components/intro";
-import Projects from "@/components/project/projects";
+import Projects from "@/components/project/projects"; // Updated import path
 import SectionDivider from "@/components/section-divider";
 import Skills from "@/components/skills";
 

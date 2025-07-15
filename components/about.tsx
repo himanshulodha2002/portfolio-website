@@ -26,15 +26,19 @@ export default function About() {
         <span className="font-medium">
           C/C++, Data Structures, Algorithms, and full-stack development
         </span>
-        . Currently working as a{" "}
+        . I recently completed my{" "}
         <span className="font-medium">
-          Backend Engineer and Intern at Samey AI
+          Backend Engineer Internship at Samey AI
         </span>
-        , I work with technologies like{" "}
+        , where I worked with technologies like{" "}
         <span className="font-medium">
           NATS, Redis, Python, FastAPI, and Azure Artifacts
         </span>
-        , while also building projects with{" "}
+        . I'm now starting a new{" "}
+        <span className="font-medium">
+          Backend Engineer Internship at HappyFox
+        </span>
+        , while continuing to build projects with{" "}
         <span className="font-medium">
           React, Next.js, and Machine Learning
         </span>
@@ -44,9 +48,10 @@ export default function About() {
       </p>
 
       <p>
-        At Samey AI, I collaborate on designing workflow orchestrators and
-        optimizing internal Python package repositories across microservices. I
-        love exploring new technologies, learning about{" "}
+        During my time at Samey AI, I collaborated on designing workflow
+        orchestrators and optimized internal Python package repositories across
+        microservices, reducing deployment time by 15%. I love exploring new
+        technologies, learning about{" "}
         <span className="font-medium">machine learning and deep learning</span>,
         and enhancing my skills in backend development and AI integration.
         Additionally, I enjoy reading books and watching movies.

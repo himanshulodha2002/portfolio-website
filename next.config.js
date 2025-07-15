@@ -1,12 +1,18 @@
-const withOptimizedImages = require('next-optimized-images');
-
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-module.exports = withOptimizedImages({
-  /* config for next-optimized-images */
-  images: {
-    disableStaticImages: true,
+const nextConfig = {
+  experimental: {
+    serverActions: {
+      allowedOrigins: ["localhost:3000", "*.vercel.app"],
+    },
   },
-  // your other Next.js config
-});
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+  },
+};
+
+module.exports = nextConfig;

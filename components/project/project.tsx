@@ -1,12 +1,11 @@
 "use client";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import { ProjectProps } from "@/lib/types";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
-import { ProjectProps } from "types";
 
 import Overlay from "./overlay";
-
 
 export default function Project({
   title,
@@ -15,6 +14,8 @@ export default function Project({
   imageUrls,
   githubLink,
   liveLink,
+  showGithubLink = true, // Add default value
+  showLiveLink = true, // Add default value
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -32,10 +33,8 @@ export default function Project({
     setOverlayVisible(!isOverlayVisible);
   };
 
-  const closeOverlay = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (e.target === e.currentTarget) {
-      setOverlayVisible(false);
-    }
+  const closeOverlay = () => {
+    setOverlayVisible(false);
   };
 
   useEffect(() => {
@@ -43,9 +42,6 @@ export default function Project({
       setOverlayVisible(false);
     }
   }, [activeSection]);
-
-  const showGithubLink = githubLink && githubLink !== "/";
-  const showLiveLink = liveLink && liveLink !== "/";
 
   return (
     <>

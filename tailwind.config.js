@@ -12,6 +12,12 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      zIndex: {
+        9999: "9999",
+      },
+      backdropBlur: {
+        md: "12px",
+      },
     },
   },
   plugins: [],
