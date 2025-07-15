@@ -34,7 +34,7 @@ export default function About() {
         <span className="font-medium">
           NATS, Redis, Python, FastAPI, and Azure Artifacts
         </span>
-        . I'm now starting a new{" "}
+        . I&apos;m now starting a new{" "}
         <span className="font-medium">
           Backend Engineer Internship at HappyFox
         </span>

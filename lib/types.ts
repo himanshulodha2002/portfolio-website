@@ -6,13 +6,13 @@ export type SectionName = (typeof links)[number]["name"];
 export interface ProjectProps {
   title: string;
   description: string;
-  tags: readonly string[]; // Change to readonly
-  imageUrls: (string | StaticImageData)[];
+  tags: readonly string[];
+  imageUrls: readonly (string | StaticImageData)[];
   githubLink?: string;
   liveLink?: string;
   showGithubLink?: boolean;
   showLiveLink?: boolean;
-  date?: string; // Add date prop
+  date?: string;
 }
 
 export interface OverlayProps {
@@ -20,8 +20,8 @@ export interface OverlayProps {
   onClose: () => void;
   title: string;
   description: string;
-  tags: readonly string[]; // Change to readonly
-  imageUrls: (string | StaticImageData)[];
+  tags: readonly string[];
+  imageUrls: readonly (string | StaticImageData)[]; // Make this readonly
   showGithubLink: boolean;
   githubLink?: string;
   showLiveLink: boolean;

@@ -2,7 +2,7 @@
 import { OverlayProps } from "@/lib/types";
 import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import {
   FaArrowLeft,
   FaArrowRight,
@@ -26,6 +26,21 @@ export default function Overlay({
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [touchStartX, setTouchStartX] = useState<number | null>(null);
 
+  // Define navigation functions first
+  const handlePrevImage = useCallback(() => {
+    if (imageUrls.length <= 1) return;
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === 0 ? imageUrls.length - 1 : prevIndex - 1
+    );
+  }, [imageUrls.length]);
+
+  const handleNextImage = useCallback(() => {
+    if (imageUrls.length <= 1) return;
+    setCurrentImageIndex((prevIndex) =>
+      prevIndex === imageUrls.length - 1 ? 0 : prevIndex + 1
+    );
+  }, [imageUrls.length]);
+
   // Reset image index when overlay opens
   useEffect(() => {
     if (isVisible) {
@@ -45,21 +60,7 @@ export default function Overlay({
 
     document.addEventListener("keydown", handleKeyPress);
     return () => document.removeEventListener("keydown", handleKeyPress);
-  }, [isVisible, onClose]);
-
-  const handlePrevImage = () => {
-    if (imageUrls.length <= 1) return;
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === 0 ? imageUrls.length - 1 : prevIndex - 1
-    );
-  };
-
-  const handleNextImage = () => {
-    if (imageUrls.length <= 1) return;
-    setCurrentImageIndex((prevIndex) =>
-      prevIndex === imageUrls.length - 1 ? 0 : prevIndex + 1
-    );
-  };
+  }, [isVisible, onClose, handlePrevImage, handleNextImage]);
 
   const handleTouchStart = (e: React.TouchEvent) => {
     const touch = e.touches[0];
